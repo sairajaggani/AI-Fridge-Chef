@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "recipe1",
+      "description": "A delicious pasta dish.",
+      "imageUrl": "https://images.unsplash.com/photo-1723906012610-7430d4079694?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmb29kJTIwcGFzdGF8ZW58MHx8fHwxNzYyOTAxNjIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "food pasta"
+    },
+    {
+      "id": "recipe2",
+      "description": "A fresh and healthy salad.",
+      "imageUrl": "https://images.unsplash.com/photo-1744477648714-37d8db13fcb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmb29kJTIwc2FsYWR8ZW58MHx8fHwxNzYyOTUxNjY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "food salad"
+    },
+    {
+      "id": "recipe3",
+      "description": "A comforting bowl of soup.",
+      "imageUrl": "https://images.unsplash.com/photo-1619583380616-1b646e784332?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmb29kJTIwc291cHxlbnwwfHx8fDE3NjI5ODg4NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "food soup"
+    },
+    {
+      "id": "recipe4",
+      "description": "A stir-fried dish with vegetables.",
+      "imageUrl": "https://images.unsplash.com/photo-1761038060597-b894af0092b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmb29kJTIwc3RpcmZyeXxlbnwwfHx8fDE3NjI5NzM1NTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "food stirfry"
+    }
+  ]
 }

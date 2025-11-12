@@ -1,5 +1,6 @@
 'use client';
-import { useFormState, useFormStatus } from 'react-dom';
+import { useFormStatus } from 'react-dom';
+import { useActionState, useEffect } from 'react';
 import { getRecipesAction, FormState } from '@/app/actions';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
@@ -7,7 +8,6 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter }
 import { RecipeList } from './recipe-list';
 import { RecipeFilters } from './recipe-filters';
 import { RecipeSkeleton } from './recipe-skeleton';
-import { useEffect } from 'react';
 import { useToast } from '@/hooks/use-toast';
 import { ChefHat } from 'lucide-react';
 
@@ -66,7 +66,7 @@ function RecipeSection({ state }: { state: FormState }) {
 }
 
 export function FridgeChefPage() {
-  const [state, formAction] = useFormState(getRecipesAction, initialState);
+  const [state, formAction] = useActionState(getRecipesAction, initialState);
   const { toast } = useToast();
 
   useEffect(() => {
